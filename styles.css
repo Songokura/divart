@@ -243,6 +243,7 @@ body.menu-open { overflow: hidden; }
 .cell-photo { grid-row: 1 / 3; }
 .cell .ph { aspect-ratio: 4 / 3; width: 100%; }
 .cell-photo .ph { aspect-ratio: auto; flex: 1 1 auto; min-height: 320px; }
+.cell-photo .cell-txt { flex: 0 0 auto; }
 .cell-txt { padding: 18px 12px 8px; display: flex; flex-direction: column; flex: 1 0 auto; }
 .cell h3 { font-family: var(--fd); font-weight: 400; font-size: 24px; line-height: 1.1; }
 .cell p { margin-top: 8px; color: var(--mute); font-size: 14.5px; }
